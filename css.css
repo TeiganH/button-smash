@@ -1,0 +1,122 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header {
+    height: 125px;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive; 
+    font-size: 4em;
+    text-align: center;
+    letter-spacing: .25em;
+}
+
+h3 {
+    font-family: 'Indie Flower', cursive; 
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: .2em; 
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex: 1; 
+    width: 800px;
+    height: 400px;
+    align-items: center;
+    align-self: center;
+    
+}
+/* .game {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    justify-content: space-between;
+    align-self: stretch;
+    height: 300px;
+    width: 300px;
+} */
+
+nav {
+    height: 200px;
+    width: 200px;
+    text-align: justify;
+}
+
+article {
+    position: relative;
+    width: 304px;
+    height: 304px;        
+    margin: 0 auto;
+    color: white;
+    }
+
+#arrow {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    font-size: 4em;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* margin-right: -50%; */
+    /* transform: translate(-50%, -50%) */
+   
+}     
+
+.left-arrow {
+    top: 101px;
+    left: 0;
+}
+
+.up-arrow {
+    top: 0;
+    left: 101px;
+    
+}
+
+.right-arrow {
+    top: 101px;
+    right: 0;
+}
+
+.down-arrow {
+    bottom: 0;
+    right: 101px;
+}
+
+aside {
+    font-family: 'Indie Flower', cursive;
+    /* font-size: 1.5em; */
+    letter-spacing: .2em; 
+    height: 200px;
+    width: 200px;
+    /* flex-grow: 1; */
+    text-align: center;
+}
+
+.score {
+    font-size: 4em;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Indie Flower', cursive; 
+    font-size: 1.5em;
+    letter-spacing: .2em; 
+    background-color: white;
+    width: 100%;
+    color: black;
+}
+
