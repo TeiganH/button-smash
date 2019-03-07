@@ -35,16 +35,6 @@ h3 {
     align-self: center;
     
 }
-/* .game {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    background-color: green;
-    justify-content: space-between;
-    align-self: stretch;
-    height: 300px;
-    width: 300px;
-} */
 
 nav {
     height: 200px;
@@ -66,11 +56,6 @@ article {
     height: 100px;
     border: 1px solid white;
     font-size: 4em;
-    /* top: 50%; */
-    /* left: 50%; */
-    /* margin-right: -50%; */
-    /* transform: translate(-50%, -50%) */
-   
 }     
 
 .left-arrow {
@@ -96,11 +81,9 @@ article {
 
 aside {
     font-family: 'Indie Flower', cursive;
-    /* font-size: 1.5em; */
     letter-spacing: .2em; 
     height: 200px;
     width: 200px;
-    /* flex-grow: 1; */
     text-align: center;
 }
 
