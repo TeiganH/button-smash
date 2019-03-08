@@ -25,7 +25,8 @@ const isArrowUp = function() {
             pressed = 38
             isUpArrowPressed()
             score()
-        } else if (arrowKey !== 38 || arrowKey !== 37 || arrowKey !== 39 || arrowKey !== 40){
+        } else if (arrowKey !== 38 && arrowKey !== 37 && arrowKey !== 39 && arrowKey !== 40){
+            setTimeout(colorDownArrowPurple, 1500)
             confirm("You lose. Want to play again?\n (press the arrow keys)")
             location.reload()
         }
@@ -40,7 +41,8 @@ const isArrowDown = function() {
             pressed = 40
             isDownArrowPressed()
             score()
-        } else if (arrowKey !== 38 || arrowKey !== 37 || arrowKey !== 39 || arrowKey !== 40){
+        } else if (arrowKey !== 38 && arrowKey !== 37 && arrowKey !== 39 && arrowKey !== 40){
+            setTimeout(colorDownArrowPurple, 1500)
             confirm("You lose. Want to play again?\n (press the arrow keys)")
             location.reload()
         }
@@ -54,7 +56,8 @@ const isArrowLeft = function() {
             pressed = 37
             isLeftArrowPressed()
             score()
-        } else if (arrowKey !== 38 || arrowKey !== 37 || arrowKey !== 39 || arrowKey !== 40){
+        } else if (arrowKey !== 38 && arrowKey !== 37 && arrowKey !== 39 && arrowKey !== 40){
+            setTimeout(colorDownArrowPurple, 1500)
             confirm("You lose. Want to play again?\n (press the arrow keys)")
             location.reload()
         }
@@ -68,7 +71,8 @@ const isArrowRight = function() {
             pressed = 39
             isRightArrowPressed()
             score()
-        } else if (arrowKey !== 38 || arrowKey !== 37 || arrowKey !== 39 || arrowKey !== 40){
+        } else if (arrowKey !== 38 && arrowKey !== 37 && arrowKey !== 39 && arrowKey !== 40){
+            setTimeout(colorDownArrowPurple, 1500)
             confirm("You lose. Want to play again?\n (press the arrow keys)")
             location.reload()
         }
@@ -145,13 +149,6 @@ const isRightArrowPressed = function() {
 
 const isDownArrowPressed = function() {
     if (pressed == 40) {
-    }
-}
-
-const loser = function() {
-    if (arrowKey !== 38 || arrowKey !== 37 || arrowKey !== 39 || arrowKey !== 40){
-        confirm("You lose. Want to play again?\n (press the arrow keys)")
-        location.reload()
     }
 }
 
