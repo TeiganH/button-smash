@@ -40,9 +40,12 @@ const isArrowDown = function() {
             pressed = 40
             isDownArrowPressed()
             score()
-        } 
+        } else if (arrowKey !== 38 || arrowKey !== 37 || arrowKey !== 39 || arrowKey !== 40){
+            confirm("You lose. Want to play again?\n (press the arrow keys)")
+            location.reload()
+        }
     })
-} 
+}    
 
 const isArrowLeft = function() {
     document.body.addEventListener('keydown', (event) => {
@@ -51,9 +54,12 @@ const isArrowLeft = function() {
             pressed = 37
             isLeftArrowPressed()
             score()
-        } 
+        } else if (arrowKey !== 38 || arrowKey !== 37 || arrowKey !== 39 || arrowKey !== 40){
+            confirm("You lose. Want to play again?\n (press the arrow keys)")
+            location.reload()
+        }
     })
-} 
+}    
 
 const isArrowRight = function() {
     document.body.addEventListener('keydown', (event) => {
@@ -62,9 +68,12 @@ const isArrowRight = function() {
             pressed = 39
             isRightArrowPressed()
             score()
-        } 
+        } else if (arrowKey !== 38 || arrowKey !== 37 || arrowKey !== 39 || arrowKey !== 40){
+            confirm("You lose. Want to play again?\n (press the arrow keys)")
+            location.reload()
+        }
     })
-} 
+}    
 
 const colorUpArrowPurple = function() {
     upArrow.style.color = 'purple'
