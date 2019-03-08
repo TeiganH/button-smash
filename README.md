@@ -24,7 +24,7 @@ This game is in MVP status, and the name was changed.
 This game is based on very simple JavaScript, CSS, and HTML5. In use are JS if/else statements, confirm functions, CSS transitions, and JS eventlisteners.
 
 ### Broken
-Currently the game is only one level, but I hope to update with multiple levels with cleaner, more functional code. If you peek at the js document you will see that elementary vanilla JS is used. The only unsolved problem is that the loser function, which is only supposed to activate when any buttons other than arrows are used. Instead it currently registered only the up button as a winning button.
+Currently the game is only one level, but I hope to update with multiple levels with cleaner, more functional code. If you peek at the js document you will see that elementary vanilla JS is used. 
 
 # Installation instructions
 In terminal, if you already have git installed, type the following line by line
@@ -33,5 +33,8 @@ git clone https://github.com/TeiganH/button-smash.git
 cd button-smash
 open index.html
 ```
+
+### Updates
+March 8th 2019 - Losing function now works
 
 
