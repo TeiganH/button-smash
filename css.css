@@ -9,13 +9,22 @@ body {
 
 header {
     height: 125px;
+    
 }
+
 
 h1 {
     font-family: 'Indie Flower', cursive; 
     font-size: 4em;
     text-align: center;
     letter-spacing: .25em;
+    
+}
+
+@keyframes color-change{
+    0% { color: violet}
+    50% {color: purple}
+    100% {color:violet}
 }
 
 h3 {
@@ -24,6 +33,7 @@ h3 {
     text-align: center;
     letter-spacing: .2em; 
     margin: 0;
+    
 }
 
 .main {
@@ -102,4 +112,12 @@ footer {
     width: 100%;
     color: black;
 }
+
+a {
+    text-decoration: none;
+    color: purple;
+    animation: color-change 6s infinite;
+    opacity: 0.75;
+}
+
 
