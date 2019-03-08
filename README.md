@@ -2,10 +2,11 @@
 Press arrows any way you like to gain points! 
 
 #disclaimer
-This game is in MVP status.
+This game is in MVP status, and the name was changed.
 
 ###Mock-ups can be found at the following URLs
 [Mockup 1] (https://drive.google.com/open?id=1lh3FY7IWiGGM0FsGJYXBvKq6bpBIi5iQ)
+
 [Mockup 2] (https://drive.google.com/open?id=1O_-M6FrX-1DY9Q8L_5NO1EtqMZeoY6LK)
 
 ## Screenshots!
