@@ -9,11 +9,13 @@ This game is in MVP status.
 [Mockup 2] (https://drive.google.com/open?id=1O_-M6FrX-1DY9Q8L_5NO1EtqMZeoY6LK)
 
 ## Screenshots!
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 Game start
-[Imgur](https://i.imgur.com/AYwLky6.png)
+![game start image](https://i.imgur.com/AYwLky6.png)
 
 ###Game Win 
-[Imgur](https://i.imgur.com/7Ac0Scv.png)
+![game win image](https://i.imgur.com/7Ac0Scv.png)
 
 ###Game Lose
-[Imgur](https://i.imgur.com/qi7uWkm.png)
+![game lose image](https://i.imgur.com/qi7uWkm.png)
